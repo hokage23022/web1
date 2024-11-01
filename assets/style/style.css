@@ -1,0 +1,543 @@
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-family: "Titillium Web", sans-serif;
+    background-color: #0f1e2d;
+    font-size: 14px;
+    font-weight: 300;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        margin: 0px 100px;
+    }
+    
+    
+    /* HEADER */
+    
+    header{
+        margin: 30px 0px 50px 0px;
+    }
+    
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    
+    nav a {
+        font-family: "Titillium Web", sans-serif;
+        color: #fff;
+        margin-right: 70px;
+        text-decoration: none;
+
+        transition: color .3s ease;
+    }
+    
+    nav a:hover {
+        color:aqua
+    }
+
+    nav a:last-of-type {
+        margin-right: 0;
+    }
+    
+    .button-header {
+        margin-right: 120px;
+    }
+    
+    .button-header {
+        background-color: #018abe;
+        padding: 15px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff
+    }
+    
+    .button-header:hover {
+        background-color: #fff;
+        color:#018abe;
+
+        transition:all .2s ease;
+    }
+
+
+/* MAIN */
+
+
+.main-inner {
+    background-image: url(../image/gym1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+
+    text-align: center;
+}
+
+.main-inner h1 {
+font-size: 42px;
+font-weight: 800px;
+color: #fff;
+background-color: #103163;
+padding: 5px 25px;
+border-radius: 15px;
+text-decoration: none;
+
+}
+
+
+/* SEANS */
+
+.seans {
+    padding-bottom: 150px;
+}
+
+.seans-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.seans-title p {
+font-size: 42px;
+font-weight: 800px;
+color: #fff;
+background-color: #103163;
+padding: 5px 25px;
+border-radius: 15px;
+text-decoration: none;
+}
+
+.seans-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seans-item {
+    background-image: url(../image/1.png);
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+}
+
+.seans-item p {
+color: #fff;
+font-size: 24px;
+font-weight: 800px;
+
+position: absolute;
+left: 40px;
+bottom: 30px;
+}
+
+.seans-item .left p {
+    left: 50px;
+    bottom: 50px;
+    }
+
+.left {
+    height: 540px;
+    border-bottom: #103163 7px solid;
+}
+
+.seans-right {
+    display: flex;
+}
+
+.seans-right div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* COM */
+
+
+.comments {
+ padding-bottom: 150px;   
+}
+
+.comments-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comments-item {
+    background-color: #103163;
+    color: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+.comments-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comments-item p {
+    font-size: 14px;
+    font-weight: 100%;
+    line-height: 140%;
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3) {
+    transform: scale(0.8);
+
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3) {
+    opacity: 0.4;
+}
+.comments-inner-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.comments-inner-bar img {
+    margin-right: 20px;
+}
+
+.comments-inner-bar img:nth-of-type(2),
+.comments-inner-bar img:nth-of-type(3),
+.comments-inner-bar img:nth-of-type(4) {
+    opacity: 0.4;
+}
+
+
+/* ABOUT */
+
+.about-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-item {
+    width: 30%;
+    color: #fff;
+    margin: 42px;
+}
+
+.about-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 140%;
+}
+
+.about-item p {
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+
+/* PRICE */
+
+.price {
+padding-bottom: 150px;
+}
+
+.price .seans-title {
+margin-top: 100px;
+}
+
+.price-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-content-items {
+    margin-right: 134px;
+}
+
+.price-content-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 31px;
+}
+
+.price-content-item div {
+   display: flex;
+   align-items: center; 
+}
+
+.price-content-item div img {
+    width: 18px;
+    height: 9px;
+    margin-right: 20px;
+}
+
+.price-content-item div h3 {
+    font-family: 'Proxima Nova' sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.price-content-item p {
+    background-color: #018abe;
+        padding: 15px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-left: 80px;
+        color: #fff;
+        font-size: 20px;
+}
+
+.price-content-image p {
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+
+.footer {
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+
+.footer-map iframe {
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block {
+    background-color: #103163;
+    padding: 35px 45px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    color: #fff;
+
+    width: 392px;
+    height: 290px;
+}
+
+.footer-block h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.footer-block div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'Proxima Nova' sans-serif;
+}
+
+.footer-block div img {
+    margin-right: 20px;
+}
+
+.footer-block div:last-of-type {
+    margin-bottom: 30px;
+}
+
+
+.footer-button {
+    font-family: 'Proxima Nova' sans-serif;
+    color: #fff;
+    background-color: #018abe;
+    padding: 9px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+
+    text-decoration: none;
+}
+
+
+.footer-botton {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Proxima Nova' sans-serif;
+}
+
+
+/* NEWS */
+
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 120px;
+}
+
+
+.news-item {
+    text-decoration: none;
+    background-image: url(../image/gym-phot.png);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px 35px;
+    text-align: left;
+
+    width: 30%;
+    height: 258px;
+    margin: 12px;
+
+    transition: transform .3s ease;
+}
+
+.news-item:hover {
+transform: scale(1.05);
+}
+
+
+
+.news-date {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #018abe;
+    border-radius: 5px;
+
+    margin-bottom: 139px;
+    font-family: 'Proxima Nova' sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.news-item h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+
+/* FORM */ 
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #0f1e2d;
+}
+
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form_text {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #000000;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    padding: 15px 110px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:focus, input:focus, textarea:focus {
+    outline: none;
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.abonement-options {
+    margin-bottom: 20px;
+}
+
+.abonement-options label {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.abonement-options input[type="checkbox"] {
+    margin-left: 10px; 
+}
